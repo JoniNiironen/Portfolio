@@ -1,0 +1,108 @@
+main {
+  max-width: 60%;
+}
+
+.sivun-otsikko {
+  align-self: flex-start;
+  margin-bottom: 3rem;
+}
+
+main header h1 {
+  font-family: "Syne", sans-serif;
+  font-size: 2.25rem;
+  margin-top: 4rem;
+}
+
+main section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #303030;
+  max-width: 65%;
+  min-width: 65%;
+  padding: 1rem 2rem;
+}
+
+main section article header {
+  align-self: flex-start;
+}
+
+main article p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+main section figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border-radius: 15px;
+  background-color: #303030;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.sato-logo {
+  width: 100%;
+  max-width: 75%;
+}
+
+.kipinakeskus-logo {
+  width: 100%;
+  max-width: 75%;
+  max-height: 90px;
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    min-width: 90%;
+  }
+
+  .sivun-otsikko {
+    align-self: center;
+  }
+
+  main section figure {
+    display: none;
+  }
+
+  main article {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  nav {
+    padding: 0 1rem;
+  }
+
+  nav div a,
+  nav div a:visited {
+    font-size: 0.9rem;
+    min-width: 5rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  nav div a:hover,
+  .active-page {
+    background-color: transparent;
+  }
+
+  main article {
+    max-width: 90%;
+    min-width: 90%;
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Joni Niironen" />
+    <meta
+      name="description"
+      content="Portfolion ota yhteyttä -sivu, joka sisältää yhteydenottolomakkeen, sekä yhteystiedot."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/yhteystiedot.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="index.html"><i class="fa-solid fa-house fa-xl"></i></a>
+        </div>
+        <div>
+          <a href="tyokokemus.html">Työkokemus</a>
+          <a href="projektit.html">Projektit</a>
+          <a href="yhteystiedot.html" class="active-page">Ota Yhteyttä</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <header class="sivun-otsikko">
+        <h1>Ota Yhteyttä</h1>
+      </header>
+      <section>
+        <form
+          action="mailto:jonniir@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="aihe">Aihe</label>
+          <input type="text" name="subject" id="aihe" />
+          <label for="viesti">Viesti</label>
+          <textarea name="body" id="viesti" cols="75" rows="10"></textarea>
+          <input type="submit" value="Lähetä" />
+        </form>
+      </section>
+      <div>
+        <section>
+          <header><h2>Puhelinnumero</h2></header>
+          <p>+000 000 0000</p>
+        </section>
+        <section>
+          <header><h2>Sähköpostiosoite</h2></header>
+          <p>esimerkki.sähköposti@gmail.com</p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 Joni Niironen</p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

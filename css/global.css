@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Syne&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #212121;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #0b5351;
+  padding: 0 2rem;
+  min-height: 48px;
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+}
+
+nav div:last-child {
+  margin-left: auto;
+}
+
+nav div:first-child a,
+nav div:first-child a:visited {
+  min-width: auto;
+}
+
+nav div a,
+nav div a:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  min-width: 8rem;
+}
+
+nav div:not(:first-child) a:hover {
+  background-color: #107976;
+}
+
+.active-page {
+  background-color: #107976;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex-grow: 1;
+  max-width: 70%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #151515;
+  font-size: 0.75rem;
+}
