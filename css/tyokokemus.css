@@ -40,6 +40,7 @@ main div article header {
 main article p {
   margin: 0;
   margin-bottom: 1rem;
+  line-height: 1.5rem;
 }
 
 main div figure {
