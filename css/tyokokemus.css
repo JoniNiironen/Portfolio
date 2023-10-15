@@ -96,8 +96,7 @@ main div figure {
     padding-right: 0.2rem;
   }
 
-  nav div a:hover,
-  .active-page {
+  nav div a:hover {
     background-color: transparent;
   }
 
