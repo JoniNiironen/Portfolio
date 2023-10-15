@@ -52,6 +52,10 @@ nav div:not(:first-child) a:hover {
   background-color: #107976;
 }
 
+#koti {
+  display: none;
+}
+
 .active-page {
   background-color: #107976;
 }
