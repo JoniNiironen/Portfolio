@@ -8,7 +8,7 @@
       content="Portfolion ota yhteyttä -sivu, joka sisältää yhteydenottolomakkeen, sekä yhteystiedot."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Joni Niironen - Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -23,7 +23,7 @@
     <header>
       <nav>
         <div>
-          <a href="index.html"><i class="fa-solid fa-house fa-xl"></i></a>
+          <a href="index.html"><i class="fa-solid fa-house fa-xl" aria-label="Koti"></i></a>
         </div>
         <div>
           <a href="tyokokemus.html">Työkokemus</a>
@@ -36,19 +36,16 @@
       <header class="sivun-otsikko">
         <h1>Ota Yhteyttä</h1>
       </header>
-      <section>
-        <form
-          action="mailto:jonniir@gmail.com"
-          method="get"
-        >
+      <div>
+        <form action="mailto:jonniir@gmail.com" method="get">
           <label for="aihe">Aihe</label>
           <input type="text" name="subject" id="aihe" />
           <label for="viesti">Viesti</label>
           <textarea name="body" id="viesti" cols="75" rows="10"></textarea>
           <input type="submit" value="Lähetä" />
         </form>
-      </section>
-      <div>
+      </div>
+      <div id="yhteystiedot">
         <section>
           <header><h2>Puhelinnumero</h2></header>
           <p>+000 000 0000</p>

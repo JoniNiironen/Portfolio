@@ -13,7 +13,7 @@ main header h1 {
   margin-top: 4rem;
 }
 
-main section {
+main div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,7 +33,7 @@ main article {
   padding: 1rem 2rem;
 }
 
-main section article header {
+main div article header {
   align-self: flex-start;
 }
 
@@ -42,7 +42,7 @@ main article p {
   margin-bottom: 1rem;
 }
 
-main section figure {
+main div figure {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +73,7 @@ main section figure {
     align-self: center;
   }
 
-  main section figure {
+  main div figure {
     display: none;
   }
 

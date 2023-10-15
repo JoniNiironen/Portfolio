@@ -13,28 +13,28 @@ main header h1 {
   margin-top: 4rem;
 }
 
-main section form {
+main div form {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-main section form label {
+main div form label {
   font-size: 1.25rem;
 }
 
-main section form label[for="viesti"] {
+main div form label[for="viesti"] {
   margin-top: 0.5rem;
 }
 
-main section input[type="text"] {
+main div input[type="text"] {
   color: white;
   background-color: #303030;
   border: none;
   padding: 0.5rem;
 }
 
-main section form textarea {
+main div form textarea {
   color: white;
   background-color: #303030;
   width: 100%;
@@ -43,7 +43,7 @@ main section form textarea {
   padding: 0.5rem;
 }
 
-main section form input[type="submit"] {
+main div form input[type="submit"] {
   color: white;
   display: inline-block;
   max-width: 5.25rem;
@@ -55,12 +55,12 @@ main section form input[type="submit"] {
   text-align: center;
 }
 
-main section form input[type="submit"]:hover {
+main div form input[type="submit"]:hover {
   background-color: #107976;
   cursor: pointer;
 }
 
-main div {
+#yhteystiedot {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -90,12 +90,12 @@ main div {
     min-width: 90%;
   }
 
-  main div {
+  #yhteystiedot {
     flex-direction: column;
     gap: 0.5rem;
   }
 
-  main div section:last-child p {
+  #yhteystiedot > section:last-child p {
     margin-bottom: 3rem;
   }
 }
